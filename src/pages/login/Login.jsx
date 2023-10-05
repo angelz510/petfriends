@@ -1,6 +1,6 @@
 import "./login.scss";
 
-const login = () => {
+const Login = () => {
   return (
     <div className="login">
       <div className="card">
@@ -23,4 +23,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;
