@@ -8,7 +8,7 @@
   .card {
     display: flex;
     background-color: white;
-    width: 55%;
+    width: 50%;
     border-radius: 10px;
     min-height: 600px;
     overflow: hidden;
@@ -19,22 +19,27 @@
           rgba(12, 58, 133, 0.3),
           rgba(12, 58, 133, 0.3)
         ),
-        url("https://i.imgur.com/hUPONVM.jpg");
+        url("https://i.imgur.com/hUPONVM.jpg") center;
       background-size: cover;
-      padding: 20px;
+      padding: 50px;
       display: flex;
       flex-direction: column;
       gap: 30px;
       color: whitesmoke;
+
       h1 {
         font-size: 90px;
+        line-height: 100px;
       }
+
       p {
         font-size: 20px;
       }
+
       span {
         font-size: 15px;
       }
+
       button {
         width: 50%;
         padding: 10px;
@@ -52,18 +57,22 @@
       display: flex;
       flex-direction: column;
       gap: 50px;
+
       h1 {
         color: rgb(41, 74, 149);
       }
+
       form {
         display: flex;
         flex-direction: column;
         gap: 30px;
+
         input {
           border: none;
           border-bottom: 1px solid lightgray;
           padding: 20px 10px;
         }
+
         button {
           width: 50%;
           padding: 10px;
