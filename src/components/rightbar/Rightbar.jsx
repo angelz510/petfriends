@@ -17,6 +17,55 @@ const Rightbar = () => {
             </div>
           </div>
         </div>
+        <div className="item">
+          <span>Latest Activities</span>
+          <div className="user">
+            <div className="user-info">
+              <img src="https://i.imgur.com/hUPONVM.jpg" alt="" />
+              <p>
+                <span>Jose Perez</span> changed their cover photo
+              </p>
+            </div>
+            <span>1 min ago</span>
+          </div>
+          <div className="user">
+            <div className="user-info">
+              <img src="https://i.imgur.com/hUPONVM.jpg" alt="" />
+              <p>
+                <span>Jose Perez</span> changed their cover photo
+              </p>
+            </div>
+            <span>1 min ago</span>
+          </div>
+          <div className="user">
+            <div className="user-info">
+              <img src="https://i.imgur.com/hUPONVM.jpg" alt="" />
+              <p>
+                <span>Jose Perez</span> changed their cover photo
+              </p>
+            </div>
+            <span>1 min ago</span>
+          </div>
+          <div className="user">
+            <div className="user-info">
+              <img src="https://i.imgur.com/hUPONVM.jpg" alt="" />
+              <p>
+                <span>Jose Perez</span> changed their cover photo
+              </p>
+            </div>
+            <span>1 min ago</span>
+          </div>
+        </div>
+        <div className="item">
+          <span>Online Friends</span>
+          <div className="user">
+            <div className="user-info">
+              <img src="https://i.imgur.com/hUPONVM.jpg" alt="" />
+              <div className="online" />
+              <span>Jose Perez</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
